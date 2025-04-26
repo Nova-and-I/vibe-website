@@ -1,0 +1,22 @@
+body {
+  background: linear-gradient(to bottom right, #f0f8ff, #e0ffff);
+  font-family: 'Helvetica Neue', sans-serif;
+  color: #333;
+  text-align: center;
+  padding: 5%;
+  margin: 0;
+}
+
+.container {
+  margin-top: 20vh;
+}
+
+h1 {
+  font-size: 3rem;
+  color: #5e60ce;
+}
+
+p {
+  font-size: 1.5rem;
+  color: #3a3d98;
+}
