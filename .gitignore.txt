@@ -1,0 +1,46 @@
+# Node modules
+node_modules/
+
+# Local temp files
+*.log
+*.tmp
+*.DS_Store
+
+# Environment config files (important: contains API keys, wallet seeds, etc.)
+.env
+.env.local
+.env.production
+.env.*.local
+
+# Smart contract artifacts (Solidity build files)
+build/
+artifacts/
+cache/
+typechain/
+*.abi
+*.bin
+
+# Wallet private key backups and sensitive formats
+*.key
+*.pem
+*.json
+
+# IPFS Metadata (local)
+metadata/
+nft-assets/
+
+# IDE/editor temp folders
+.vscode/
+.idea/
+
+# Output from web frameworks (if used later)
+.out/
+.next/
+dist/
+coverage/
+
+# Yarn/Node package managers (future-proofing)
+.yarn/
+.pnpm-store/
+package-lock.json
+yarn.lock
